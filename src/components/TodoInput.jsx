@@ -9,7 +9,13 @@ const TodoInput = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    dispatch(todoAdd(text))
+    if(text){
+      dispatch(todoAdd(text))
+    
+    }else{
+        alert("Please add task!")
+    }
+    
     setText("");
   };
 
