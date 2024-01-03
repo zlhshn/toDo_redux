@@ -16,14 +16,15 @@ const TodoItem = ({ completed, text, id }) => {
 
   const styled = {
     textDecoration: completed ? "line-through" : "none",
-    backgroundColor: completed ? "#A9A9A9" : "orange",
+    backgroundColor: completed ? "#A9A9A9" : "#010221",
     borderRadius: "5px",
   };
 
   return (
     <div style={styled} className="todo-list">
-      <h2 className="todoText">{text}</h2>
-      <div>
+     
+
+    <div className="text-ok">
         <span>
           <img
             src={okLogo}
@@ -32,7 +33,15 @@ const TodoItem = ({ completed, text, id }) => {
             onClick={handleToggle}
           />
         </span>
-        <span>
+   
+      
+  
+           <h3 className="todoText">{text}</h3>
+    </div>
+          
+    
+   
+         <span>
           <img
             src={deleteLogo}
             className="delete-logo"
@@ -40,7 +49,9 @@ const TodoItem = ({ completed, text, id }) => {
             onClick={handleDelete}
           />
         </span>
-      </div>
+   
+       
+ 
     </div>
   );
 };

@@ -21,7 +21,7 @@ dispatch(clear())
       </div>
       <div className="clear-wrapper">
         <button onClick={handleClearList} className="clear-button">
-          Clear
+          Clear All
         </button>
       </div>
     </div>
