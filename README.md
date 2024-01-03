@@ -17,9 +17,9 @@
 
 
 ## Usage..
-⭐ You can add task.
-⭐ You can delete task.
-⭐ When the task is completed you can cross it off.
+⭐ You can add task. <br>
+⭐ You can delete task. <br>
+⭐ When the task is completed you can cross it off. <br>
 
 
 
