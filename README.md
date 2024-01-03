@@ -7,7 +7,7 @@
 [Live](https://to-do-redux-zlh.vercel.app/)
 
 ## ScreenShot
-
+![reduxtodo](./redux-todo.gif)
 
 ## Technologies 
 
